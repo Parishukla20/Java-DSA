@@ -1,4 +1,5 @@
 // Merge Sort 
+// Time complexity is O(nlogn)
 
 public class EightySix {
     public static void conquer(int arr[],int si,int mid,int ei){
@@ -46,3 +47,4 @@ public class EightySix {
         System.out.println();
     }
 }
+
