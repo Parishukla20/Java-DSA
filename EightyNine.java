@@ -3,6 +3,9 @@
 class Student{
     String name;
     int rollNo;
+    Student(){
+        System.out.println("constructor called");
+    }
     public void name(){
         System.out.println(this.name);
     }
@@ -30,3 +33,4 @@ public class EightyNine {
         stu2.Study();
     }
 }
+
