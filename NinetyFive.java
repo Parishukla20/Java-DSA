@@ -1,0 +1,22 @@
+//Multi Level Inheritence in Java
+
+class shape{
+    public void area(){
+        System.out.println("Displays area");
+    }
+}
+class triangle extends shape{
+    public void area(int l,int h){
+        System.out.println(1/2*l*h);
+    }
+}
+class euilateralTriangle extends triangle{
+    public void area(int l,int h){
+        System.out.println(1/2*l*h);
+    }
+}
+public class NinetyFive {
+    public static void main(String args[]){
+
+    }
+}
