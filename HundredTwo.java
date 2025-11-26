@@ -50,7 +50,34 @@ public class HundredTwo {
         }
         System.out.println("NULL");
     }
+    //delete first
+    public void deleteFirst(){
+        if(head == null){
+            System.out.println("the list is empty");
+            return;
+        }
+        head = head.next;
+    }
+    //delete last
+    public void deleteLast(){
+        if(head == null){
+            System.out.println("the list is empty");
+            return;
+        }
 
+        if(head.next == null){
+            head = null;
+            return;
+        }
+
+        Node secondLast = head;
+        Node lastNode = head.next;
+        while(lastNode.next != null){
+            lastNode = lastNode.next;
+            secondLast = secondLast.next;
+        }
+        secondLast.next = null;
+    }
     public static void main(String args[]){
         HundredTwo list = new HundredTwo();
         list.addFirst("a");
@@ -59,6 +86,12 @@ public class HundredTwo {
         list.addLast("list");
         list.printList();
         list.addFirst("this");
+        list.printList();
+
+        list.deleteFirst();
+        list.printList();
+
+        list.deleteLast();
         list.printList();
     }
 }
