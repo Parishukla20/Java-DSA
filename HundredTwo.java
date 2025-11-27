@@ -2,6 +2,10 @@
 
 public class HundredTwo {
     Node head;
+    private int size;
+    HundredTwo(){
+        this.size =0;
+    }
     class Node{
         String data;
         Node next;
@@ -9,6 +13,7 @@ public class HundredTwo {
         Node(String data){
             this.data = data;
             this.next = null;
+            size++;
         }
     }
     //add - first,last
@@ -56,6 +61,7 @@ public class HundredTwo {
             System.out.println("the list is empty");
             return;
         }
+        size--;
         head = head.next;
     }
     //delete last
@@ -64,7 +70,7 @@ public class HundredTwo {
             System.out.println("the list is empty");
             return;
         }
-
+        size--;
         if(head.next == null){
             head = null;
             return;
@@ -78,13 +84,19 @@ public class HundredTwo {
         }
         secondLast.next = null;
     }
+
+    public int getSize(){
+        return size;
+    }
     public static void main(String args[]){
         HundredTwo list = new HundredTwo();
         list.addFirst("a");
         list.addFirst("is");
         list.printList();
+        
         list.addLast("list");
         list.printList();
+
         list.addFirst("this");
         list.printList();
 
@@ -93,5 +105,8 @@ public class HundredTwo {
 
         list.deleteLast();
         list.printList();
+
+        System.out.println(list.getSize());
     }
 }
+
