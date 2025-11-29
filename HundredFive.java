@@ -1,4 +1,4 @@
-//search an element in linked list
+//Search an element in linked list
 
 class Node {
     int data;
