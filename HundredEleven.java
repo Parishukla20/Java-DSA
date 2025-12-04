@@ -1,4 +1,4 @@
-//Stack implement in ArrayList form
+//Stack implement in ArrayList format
 
 import java.util.*;
 public class HundredEleven {
@@ -46,3 +46,4 @@ public class HundredEleven {
         }
     }
 }
+
