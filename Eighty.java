@@ -14,7 +14,6 @@ public class Eighty {
         int downPaths = countPaths(i+1, j, n, m);
         //right move
         int rightPaths = countPaths(i, j+1, n, m);
-
         return downPaths + rightPaths;
     }
     public static void main(String args[]){
@@ -23,3 +22,4 @@ public class Eighty {
         System.out.println(totalPaths);
     }
 }
+
