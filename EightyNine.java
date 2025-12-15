@@ -25,7 +25,7 @@ public class EightyNine {
         stu2.name = "Prerna Shukla";
         stu2.rollNo = 11;
 
-        stu1.name();
+        stu1.name();  //get name
         stu1.rollNo();
         stu1.Study();
         stu2.name();
@@ -33,4 +33,5 @@ public class EightyNine {
         stu2.Study();
     }
 }
+
 
