@@ -1,6 +1,6 @@
 //Bit Manipulation in Java 
 //Update Bit in java
-//Here update with 1 so OR operation will perform
+//Here update with 1 so OR operation will perform here
 
 public class FiftyNine {
     public static void main(String args[]){
@@ -11,3 +11,4 @@ public class FiftyNine {
         System.out.println(newNumber);
     }
 }
+
