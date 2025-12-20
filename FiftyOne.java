@@ -2,9 +2,10 @@
 public class FiftyOne {
     public static void main(String args[]){
         //concatenation function
-        String firstName = "Pari";
-        String lastName = "Shukla";
+        String firstName = "XYZ";
+        String lastName = "ABC";
         String fullName = firstName +" " + lastName;
         System.out.println(fullName);
     }
 }
+
