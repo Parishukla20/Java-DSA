@@ -58,6 +58,7 @@ public class HundredThirtyTwo {
         subRoot.left = new TreeNode(1);
         subRoot.right = new TreeNode(2);
 
-        System.out.println(obj.isSubtree(root, subRoot)); // true
+        System.out.println(obj.isSubtree(root, subRoot)); 
     }
 }
+
