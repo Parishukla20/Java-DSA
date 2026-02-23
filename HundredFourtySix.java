@@ -23,6 +23,8 @@ public class HundredFourtySix {
                 map.put(sum, 1);
             }
         }
+        
         System.out.println(ans);
     }
 }
+
