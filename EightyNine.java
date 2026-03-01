@@ -33,5 +33,3 @@ public class EightyNine {
         stu2.Study();
     }
 }
-
-
