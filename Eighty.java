@@ -22,4 +22,3 @@ public class Eighty {
         System.out.println(totalPaths);
     }
 }
-
