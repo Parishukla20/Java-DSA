@@ -32,4 +32,3 @@ public class EightyEight {
         pen2.printColor();
     }
 }
-
