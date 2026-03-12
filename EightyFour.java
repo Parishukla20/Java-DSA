@@ -1,4 +1,4 @@
-//Sudoku Game Solver
+//Basic logic for Sudoku Game Solver
 
 public class EightyFour {
     public boolean isSafe(char[][] board,int row,int column,int number){
@@ -60,3 +60,4 @@ public class EightyFour {
 
     }
 }
+
