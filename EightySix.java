@@ -1,4 +1,4 @@
-// Merge Sort 
+// Merge Sort Program
 // Code Time complexity is O(nlogn)
 
 public class EightySix {
@@ -47,5 +47,3 @@ public class EightySix {
         System.out.println();
     }
 }
-
-
