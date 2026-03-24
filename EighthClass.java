@@ -1,4 +1,5 @@
-//Using Conditional Statement(If else)
+//Using Conditional Statement
+
 import java.util.*;
 public class EighthClass {
     public static void main(String args[]){
