@@ -1,4 +1,4 @@
-//Perform Simple Calculation
+//Program to Perform Simple Calculation
 public class FifthClass {
     public static void main(String args[]){
         int a=100;
