@@ -1,4 +1,4 @@
-//length function in Strings
+//Use of length function in Strings
 public class FiftyTwo {
     public static void main(String args[]){
         String fullName = "Pari Shukla";
