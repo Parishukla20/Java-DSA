@@ -32,6 +32,5 @@ public class Nineteen {
 }
 
 
-
 //if(i==1 || j==1 || i==4 || j==5){"*"}
 //else{" "}
