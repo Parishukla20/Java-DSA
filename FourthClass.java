@@ -1,4 +1,4 @@
-//Use of int , String , Double 
+//Use of datatype - int , String , Double 
 public class FourthClass {
     public static void main(String args[]){
         int a = 25;
