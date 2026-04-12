@@ -11,6 +11,3 @@ public class FiftyFive {
        System.out.println(str2.length());
    }
 }
- 
-    
-
