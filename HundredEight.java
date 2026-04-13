@@ -12,7 +12,6 @@ class ListNode {
 }
 
 public class HundredEight {
-
     public boolean isPalindrome(ListNode head){
 
         // Step 1: get the string of all values
