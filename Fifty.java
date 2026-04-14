@@ -1,4 +1,5 @@
 //Taking string as input
+
 import java.util.*;
 public class Fifty {
     public static void main(String args[]){
