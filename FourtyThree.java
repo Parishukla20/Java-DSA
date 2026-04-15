@@ -11,6 +11,7 @@ public class FourtyThree {
         // System.out.println(marks[1]);
         // System.out.println(marks[2]);
 
+        //Print all elements of array
         for(int i =0;i<3;i++){
             System.out.println(marks[i]);
         }
