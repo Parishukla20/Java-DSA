@@ -1,7 +1,6 @@
 //Reverse a stack
 
 import java.util.Stack;
-
 public class HundredFifteen {
     public static void pushAtBottom(int data,Stack<Integer> s){
         if(s.isEmpty()){
