@@ -1,4 +1,4 @@
-//Pattern Questions 1
+//Pattern based Questions 1
 
 public class Eighteen {
     public static void main(String args[]){
