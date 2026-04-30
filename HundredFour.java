@@ -15,6 +15,5 @@ public class HundredFour {
         } else {
             System.out.println("String is not Palindrome");
         }
-        
     }
 }
