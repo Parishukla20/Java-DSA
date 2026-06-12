@@ -11,7 +11,6 @@ public class EightyFour {
                 return false;
             }
         }
-
         //grid
         int sr = (row/3) * 3;
         int sc = (column/3) * 3;
@@ -60,4 +59,3 @@ public class EightyFour {
 
     }
 }
-
