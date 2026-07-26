@@ -12,15 +12,12 @@ public class HundredSix {
     }
     static class LinkedList {
         Node head;
-
         void add(int data) {
             Node newNode = new Node(data);
-
             if (head == null) {
                 head = newNode;
                 return;
             }
-
             Node temp = head;
             while (temp.next != null) {
                 temp = temp.next;
@@ -54,7 +51,6 @@ public class HundredSix {
 
     public static void main(String args[]) {
         LinkedList list = new LinkedList();
-
         list.add(10);
         list.add(20);
         list.add(30);
