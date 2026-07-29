@@ -14,7 +14,6 @@ public class HundredTwentyFour {
 
     static class BinaryTree {
         static int idx = -1;
-
         public static Node buildTree(int nodes[]) {
             idx++;
             if (nodes[idx] == -1) {
@@ -23,11 +22,10 @@ public class HundredTwentyFour {
             Node newNode = new Node(nodes[idx]);
             newNode.left = buildTree(nodes);
             newNode.right = buildTree(nodes);
-
             return newNode;
         }
     }
-
+    
     public static void preorder(Node root){
         if(root == null){
             return;
