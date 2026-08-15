@@ -1,5 +1,4 @@
-//Arrays 
-
+//Arrays Basics
 public class FourtyFour {
     public static void main(String args[]){
         int marks[]={95,97,98};
